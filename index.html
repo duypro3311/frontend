@@ -3,13 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to my blog</title>
+    <title>That's My Angel</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="AZ.png" type="x-image/icon">
 </head>
 <body>
-    <h1>EROR 404</h1>
-    <h2>Coming soon....</h2>
-    <p>Loading now, please wait....</p>
-    <img src="50511011681_aa6b5e8f3d_o.png" height="65%" width="65%" alt="Beautiful Girl">
+    
+    <div class="background"></div>
+    <div class="content">
+        <a id="tittle" href="https://www.facebook.com/" title="That' My Angel">
+            <img id="logo" src="logo.gif" alt="logo">
+        </a>
+        <script>
+            // Lấy tham chiếu đến hình ảnh GIF
+            var logo = document.getElementById('logo');
+            // Đặt một sự kiện 'load' cho hình ảnh
+            logo.addEventListener('load', function() {
+            // Sử dụng setTimeout để chạy hình ảnh GIF trong một khoảng thời gian ngắn (ví dụ: 2 giây)
+            setTimeout(function() {
+            // Ngừng chạy hình ảnh bằng cách gán thuộc tính src thành một hình ảnh tĩnh
+            logo.src = 'AZ.png';
+            }, 1200); // 2000 milliseconds (2 giây)
+            });
+        </script>
+    
+    </div>
+    <div id="head">
+        <h1>Nơi lưu giữ cái đẹp</h1>
+    </div>
+    <button id="menuButton">Menu</button>
+    <div class="sidebar" id="sidebar">
+        <div id="video">
+            <iframe width="404" height="215" src="https://www.youtube.com/embed/95ahbau-rJk?si=N1keWNww0L_xP7sY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <!-- Nội dung thanh bên ở đây... -->
+    </div>
+    <script src="script.js"></script>
+    <div class="content1">
+        <h1>Welcome to That's My Angel</h1>
+    </div>
+    <div class="grid-album" id="grid-album">
+        <div class="album"><img src="003e6462752ab193f79846fbf80db19e_oe=60EDEDEB.jpg" alt="Ảnh 1"></div>
+        <div class="album"><img src="00450a27bf83e73b50fae7de3cda7464_oe=60EDFA1E.jpg" alt="Ảnh 2"></div>
+        <div class="album"><img src="001620d71179ca7a214a752b12dc8da1_oe=60ED778D.jpg" alt="Ảnh 3"></div>
+        <div class="album"><img src="188552a642c8f2fd54b7459e650c9299_oe=60ED32B8.jpg" alt="Ảnh 4"></div>
+        <div class="album"><img src="0b041217c43c1405827220548ea41c23_oe=60EDFA6D.jpg" alt="Ảnh 5"></div>
+        <div class="album"><img src="7649cd09aaac685b6e0619e73892972f_oe=60EDFA25.jpg" alt="Ảnh 6"></div>
+        <div class="album"><img src="0c724edc07767d5e513274bac0604f2b_oe=60EE3D32.jpg" alt="Ảnh 7"></div>
+        <div class="album"><img src="2251da05902fe90e9305e44a0b6a94b8_oe=60EDB367.jpg" alt="Ảnh 8"></div>
+        <div class="album"><img src="55103120760bf73ef6d7c968f452641b_oe=60ED30B8.jpg" alt="Ảnh 9"></div>
+        <div class="album"><img src="71f6ec863a0e63f9e072d4fa8eedd073_oe=60EDCCC9.jpg" alt="Ảnh 10"></div>
+    </div>   
+    <ul></ul>
 </body>
 </html>
