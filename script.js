@@ -21,5 +21,3 @@ sidebar.addEventListener('mouseenter', () => {
 sidebar.addEventListener('mouseleave', () => {
     sidebar.style.right = '-450px'; // Ẩn thanh bên khi di chuột ra khỏi sidebar
 });
-
-
