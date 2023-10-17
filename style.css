@@ -10,6 +10,9 @@
     z-index: -2;
     filter: blur(0.5px);
 }
+#menuButton {
+    font-size: 15px;
+}
 .content {
     margin-top: -8px;
     margin-left: -8px;
